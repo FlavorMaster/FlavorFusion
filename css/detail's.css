@@ -1,0 +1,591 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a{
+  text-decoration: none;
+}
+
+.MenuLogo a{
+  color: black;
+}
+@media only screen and (min-width: 1200px) {
+    nav{
+      width: 100%;
+      height: 60px;
+      text-align: center;
+      position: relative;
+    }
+  
+    .MenuLogo{
+      width: 300px;
+      height: 30px;
+      margin: 20px;
+      position: absolute;
+      line-height: 30px;
+      border-right: solid lightgrey;
+    }
+  
+    .MenuLogo:hover{
+      cursor: pointer;
+    }
+  
+    .MenuLogo a{
+      font-weight: bolder;
+      font-size: 30px;
+    }
+  
+    .Section{
+      width: 150px;
+      height: 30px;
+      margin: 20px;
+      position: absolute;
+      left: 320px;
+      line-height: 30px;
+      
+    }
+    .Section:hover, .Section a:hover{
+      cursor: pointer;
+      color: black;
+      font-weight: 400;
+    }
+  
+    .Section a{
+      font-weight: 100;
+      font-size: 20px;
+      color: grey;
+    }
+  
+    .help {
+      width: 100px;
+      height: 30px;
+      margin: 20px;
+      position: absolute;
+      left: 500px;
+      line-height: 30px;
+    }
+  
+    .help:hover,.help a:hover{
+      cursor: pointer;
+      color: black;
+      font-weight: 400;
+    
+    }
+  
+    .help a{
+      font-size: 20px;
+      font-weight: 100;
+      color: grey;
+    }
+
+    .TheDish{
+      width: 60%;
+      height: 300px;
+      display: block;
+      background-color: black;
+      top: 0px;
+      position: absolute;
+      right: 5px;
+    }
+
+    .TheDish h2 {
+      color: white;
+      text-transform: uppercase;
+      padding-top: 30px;
+      font-size: 30px;
+      font-weight: bold;
+      margin-left: 10px;
+    }
+
+    .TheDish p{
+      color: white;
+      font-size: 16px;
+      padding-top: 20px;
+      font-weight: lighter;
+      margin-left: 10px;
+      width: 700px;
+    }
+
+    .ImageOfTheDish{
+      width: 100%;
+      height: 300px;
+      position: relative;
+      display: block;
+    }
+
+    .ImageOfTheDish img{
+      position: absolute;
+      height: 300px;
+      width: 38%;
+      
+    }
+
+    .ingredients{
+      width: 80%;
+      margin: 50px  50px;
+      
+    }
+
+    .ingredients h3{
+      font-size: 35px;
+      font-weight: bolder;
+      text-transform: uppercase;
+    }
+
+    .ingredients h4{
+      font-size: 30px;
+      font-weight: bolder;
+      text-transform: uppercase;
+    }
+    
+    .ingredients  li{
+      color: grey;
+    }
+
+    .equipement{
+      width: 80%;
+      margin: 50px 50px;
+
+    }
+
+    .equipement h3{
+      font-size: 35px;
+      font-weight: bolder;
+      text-transform: uppercase;
+    }
+
+    .equipement h4{
+      font-size: 30px;
+      font-weight: bolder;
+      text-transform: uppercase;
+    }
+    
+    .equipement  li{
+      color: grey;
+    }
+
+
+    .instructions{
+      width: 80%;
+      margin: 50px 50px;
+
+    }
+
+    .instructions h3{
+      font-size: 35px;
+      font-weight: bolder;
+      text-transform: uppercase;
+    }
+
+    .instructions h4{
+      font-size: 30px;
+      font-weight: bolder;
+      text-transform: uppercase;
+    }
+    
+    .instructions li{
+      color: grey;
+    }
+
+
+    .Tips{
+      background-color: black;
+      width: 100%;
+      height: 190px;
+      position: relative;
+    }
+    .Tips h4{
+      text-align: center;
+      color: white;
+      font-size: 25px;
+    }
+
+    .Tips li{
+      position: absolute;
+      text-decoration: none;
+      color: white;
+      width: 300px;
+      font-size: 17px;
+      
+    }
+
+    .Tips li:nth-child(1){
+      left: 50px;
+    }
+
+    .Tips li:nth-child(2){
+      right: 50px;
+    }
+
+    .Tips li:nth-child(3){
+      left: 37% ;
+    }
+
+
+    .conclusion{
+      width: 100%;
+      text-align: center;
+      font-size: 24px;
+      text-transform: uppercase;
+    }
+
+
+    footer{
+      width: 100%;
+      height: 85px;
+      display: inline-block;
+      justify-content: center;
+      background-color: rgb(167, 167, 167);
+    }
+  
+    .footer__container{
+      width: 100%;
+      height: 25px;
+      position: relative;
+      margin-bottom: 30px;
+    }
+  
+    .social__container{
+      width: 100px;
+      height: 25px;
+      display: inline-flex;
+      position: absolute;
+      top: 20px;
+      left: 45%;
+    }
+  
+    .social{
+      width: 100px;
+      height: 25px;
+      margin-right: 10%;
+      margin-left: 10%;
+    }
+  
+    .footer_copyright{
+      text-align: center;
+      width: 100%;
+      background-color: grey;
+      height: 30px;
+      color: white;
+    }
+  
+    .text-white{
+      text-decoration: none;
+      font-weight: bold;
+      color: white;
+      line-height: 30px;
+    }
+}
+
+
+
+
+
+@media only screen and (max-width:1200px) {
+    nav{
+      width: 100%;
+      height: 60px ;
+      text-align: center;
+      position: relative;
+    }
+  
+    .MenuLogo{
+      width: 120px;
+      height: 30px;
+      top: 20px;
+      left: 10px;
+      position: absolute;
+      line-height: 30px;
+      border-right: solid lightgrey;
+    }
+  
+    .MenuLogo a{
+      font-weight: bolder;
+      font-size: 16px;
+    }
+  
+    .MenuLogo:hover{
+      cursor: pointer;
+    }
+  
+    .Section {
+      width: 80px;
+      height: 30px;
+      margin: 0px;
+      position: absolute;
+      left: 150px;
+      top: 20px;
+      line-height: 30px;
+    }
+  
+    .Section:hover, .Section a:hover{
+      cursor: pointer;
+      color: black;
+      font-weight: 400;
+    }
+  
+    .Section a{
+      font-weight: 100;
+      font-size: 15px;
+      color: grey;
+    }
+  
+    .help{
+      width: 80px;
+      height: 30px;
+      top: 20px;
+      position: absolute;
+      left: 250px;
+      line-height: 30px;
+    }
+  
+    .help a{
+      font-size: 15px;
+      font-weight: 100;
+      color: grey;
+    }
+  
+    .help:hover, .help a:hover{
+      cursor: pointer;
+      color: black;
+      font-weight: 400;
+    }
+
+    footer{
+      width: 100%;
+      height: 85px;
+      display:inline-block;
+      justify-content: center;
+      background-color: rgb(167,167,167);
+    }
+  
+    .footer__container{
+      width: 100%;
+      height: 25px;
+      position:relative;
+      margin-bottom: 30px;
+    }
+  
+    .social__container{
+      width: 200px;
+      height: 25px;
+      display: inline-flex;
+      position: absolute ;
+      top: 20px;
+      left: 35%;
+    }
+  
+    .social{
+      width: 50px;
+      height: 25px;
+      margin-left: 15px;
+      margin-right: 15px;
+    }
+  
+    .footer_copyright{
+      text-align: center;
+      width: 100%;
+      background-color: grey;
+      height: 30px;
+      color: white;
+    }
+  
+    .text-white{
+      text-decoration: none;
+      font-weight: bold;
+      color: white;
+      line-height: 30px;
+    }
+
+    .TheDish{
+      width: 60%;
+      height: 200px;
+      display: block;
+      background-color: black;
+      top: 0px;
+      position: absolute;
+      right: 5px;
+    }
+
+    .TheDish h2 {
+      color: white;
+      text-transform: uppercase;
+      margin-top: 20px;
+      font-size: 20px;
+      font-weight: bold;
+      margin-left: 10px;
+    }
+
+    .TheDish p{
+      color: white;
+      font-size: 13px;
+      padding-top: 0px;
+      font-weight: lighter;
+      margin-left: 10px;
+      width: 400px;
+    }
+
+    .ImageOfTheDish{
+      width: 100%;
+      height: 200px;
+      position: relative;
+      display: block;
+    }
+
+    .ImageOfTheDish img{
+      position: absolute;
+      height: 200px;
+      width: 38%;
+      
+    }
+
+    .ingredients{
+      width: 80%;
+      margin: 50px  50px;
+      
+    }
+
+    .ingredients h3{
+      font-size: 35px;
+      font-weight: bolder;
+      text-transform: uppercase;
+    }
+
+    .ingredients h4{
+      font-size: 30px;
+      font-weight: bolder;
+      text-transform: uppercase;
+    }
+    
+    .ingredients  li{
+      color: grey;
+    }
+
+    .equipement{
+      width: 80%;
+      margin: 50px 50px;
+
+    }
+
+    .equipement h3{
+      font-size: 35px;
+      font-weight: bolder;
+      text-transform: uppercase;
+    }
+
+    .equipement h4{
+      font-size: 30px;
+      font-weight: bolder;
+      text-transform: uppercase;
+    }
+    
+    .equipement  li{
+      color: grey;
+    }
+
+
+    .instructions{
+      width: 80%;
+      margin: 50px 50px;
+
+    }
+
+    .instructions h3{
+      font-size: 35px;
+      font-weight: bolder;
+      text-transform: uppercase;
+    }
+
+    .instructions h4{
+      font-size: 30px;
+      font-weight: bolder;
+      text-transform: uppercase;
+    }
+    
+    .instructions li{
+      color: grey;
+    }
+
+
+    .Tips{
+      background-color: black;
+      width: 100%;
+      height: 330px;
+      position: relative;
+    }
+
+    .Tips h4{
+      color: white;
+      text-transform: uppercase;
+      text-align: center;
+      padding-top: 30px;
+      font-size: 24px;
+    }
+
+    .Tips li{
+      text-decoration: none;
+      color: white;
+      width: 100%;
+      font-size: 17px;
+      padding-top: 30px;
+    }
+
+    .Tips li:nth-child(1){
+      padding-top: 0px;
+    }
+
+    .conclusion{
+      width: 100%;
+      text-align: center;
+      font-size: 24px;
+      text-transform: uppercase;
+    }
+
+
+    footer{
+      width: 100%;
+      height: 85px;
+      display: inline-block;
+      justify-content: center;
+      background-color: rgb(167, 167, 167);
+    }
+  
+    .footer__container{
+      width: 100%;
+      height: 25px;
+      position: relative;
+      margin-bottom: 30px;
+    }
+  
+    .social__container{
+      width: 100px;
+      height: 25px;
+      display: inline-flex;
+      position: absolute;
+      top: 20px;
+      left: 45%;
+    }
+  
+    .social{
+      width: 100px;
+      height: 25px;
+      margin-right: 10%;
+      margin-left: 10%;
+    }
+  
+    .footer_copyright{
+      text-align: center;
+      width: 100%;
+      background-color: grey;
+      height: 30px;
+      color: white;
+    }
+  
+    .text-white{
+      text-decoration: none;
+      font-weight: bold;
+      color: white;
+      line-height: 30px;
+    }
+  }  
+   
